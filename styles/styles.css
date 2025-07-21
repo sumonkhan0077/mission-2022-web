@@ -1,0 +1,136 @@
+
+/* font styles */
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 40px;
+}
+.banner-text { 
+   padding-right: 200px;
+    
+}
+.banner-text h1 {
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: #333333;
+    border-left: 4px solid #FF5959;
+    padding-left: 13px;
+}
+.banner-text h1 > span {
+    color: #FFAD5A;
+}
+.banner-text p {
+    font-size: 1.1rem;
+    color: #3E3E3E;
+}
+.banner-photo img {
+    width: 424px;
+}
+.primary-btn {
+    background-color: #FF5959;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+.mission {
+    margin: 20px auto;
+}
+.mission h3 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #13103A;
+}
+.mission h3 span {
+    color: #FFAD5A;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 30px 100px;
+}
+.card {
+    max-width: 360px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(79, 157, 166, 0.304);
+}
+.card-photo img {
+    width: 141px;
+    height: 141px;
+}
+.card-text {
+    padding: 24px;
+}
+.card-text h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card:nth-child(2) {
+    background-color: rgba(255, 89, 89, 0.156);
+}
+.card:nth-child(3) {
+    background-color: rgba(255, 244, 214, 1);
+}
+.dots {
+    color: #c8c8c8;
+    display: grid;
+    place-items: end;
+    margin-top: -100px;
+}
+.advice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 100px;
+    position: relative;
+}
+.advice-photo .advice-photo-1 {
+    width:80%;
+   
+}
+.advice-photo-2 {
+    position: absolute;
+    width: 227px;
+    height: 227px;
+    top: 70px;
+    left: 30px;
+    z-index: -1;
+}
+.dots-1 {
+    place-items: start;
+}
+.advice-text h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #333333;
+    margin: 0;
+}
+.advice-photo-3 {
+    width:80%;
+    padding-left: 30px;
+}
+.advice-photo-4 {
+    position: absolute;
+    width: 227px;
+    height: 227px;
+    top: 57%;
+    left: 75%;
+    z-index: -1;
+}
